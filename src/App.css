@@ -125,6 +125,7 @@ main p {
 
 footer {
     display: flex;
+    align-items: center;
     background: #D5D4D8;
     height: 4rem;
     width: 100%;
@@ -134,7 +135,12 @@ footer {
 footer img {
     width: 1.5em;
     padding: 0 .75em 0 .75em;
-}    
+    transition: .2s;
+}
+
+footer img:hover {
+    opacity: 75%;
+}
 
 .footer-icons {
         display: flex;

@@ -33,10 +33,10 @@ export default function App() {
             </main>
             <footer>
                 <div class="footer-icons">
-                    <img src={ facebookLogo } />
-                    <img src={ twitterLogo } />
-                    <img src={ instagramLogo } />
-                    <img src={ githubLogo } />
+                    <a href=""><img src={ facebookLogo } /></a>
+                    <a href=""><img src={ twitterLogo } /></a>
+                    <a href=""><img src={ instagramLogo } /></a>
+                    <a href="http://github.com/kodosa7/"><img src={ githubLogo } /></a>
                 </div>
             </footer>
         </div>
