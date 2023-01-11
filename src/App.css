@@ -1,5 +1,4 @@
 * {
-    /* box-sizing: borderbox; */
     margin: 0 auto;
     font-family: Inter, Helvetica, Arial, sans-serif;
 }
@@ -105,10 +104,12 @@ header h4 a:focus {
     margin-top: 20px;
     justify-content: center;
 }
+
 main {
     text-align: left;
     padding: 0 2.1em 1.8em 2.1em;
 }
+
 main h2 {
     color: #2B283A;
     font-weight: 700;
